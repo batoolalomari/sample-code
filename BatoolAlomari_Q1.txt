@@ -1,0 +1,5 @@
+
+
+1- SELECT COUNT(*) FROM Products;
+2- SELECT ProductName,ProductPrice FROM Products JOIN ProductsPrice WHERE ProductPrice=(SELECT MIN(ProductPrice) FROM Productsprice);
+3- SELECT COUNT(*) FROM Products JOIN ProductsPrice WHERE ProductPrice <5;

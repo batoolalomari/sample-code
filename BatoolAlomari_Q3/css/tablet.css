@@ -1,0 +1,59 @@
+
+@media screen and (min-width: 767px) and (max-width: 960px){
+    *{
+        overflow: hidden;
+    }
+    
+    header{
+        background-color: blue; 
+        position: absolute;
+        top: 0;
+        height: 10%;
+        width: 100%;
+        line-height: 15%;
+        
+    }
+    
+    
+    form{
+       
+        margin: 0 auto;
+        position: absolute;
+        top: 30%;
+        left: 45%;
+        z-index: 10;
+       
+    }
+    
+    input[type="text"]{
+        margin-bottom: 6%;
+        width: 60%;
+        padding: 2%;
+     
+    }
+    
+    button{
+        background-color:#DC4C46;
+        border: none;
+        margin-left: 35%;
+        margin-top: 1%;
+        padding: 2%;
+        width: 30%;
+        text-align: center;
+        text-transform: capitalize;
+        color: mintcream;
+    
+    }
+    
+    
+    
+    #footer{
+        background-color: gray;
+        position: absolute;
+        bottom: 0;
+        height: 20%;
+        width: 100%;
+        line-height: 15%;
+        
+    }
+    }
